@@ -61,6 +61,13 @@ add_executable(glodan3 glodon/glodon3.cpp)
 ## amazon
 add_executable(amazon1 amazon/1.cpp)
 
-
 add_executable(yfd1 yuanfudao0912/1.cpp)
 add_executable(yfd3 yuanfudao0912/3.cpp)
+
+# heapSort
+add_executable(heapSort heapSort.cpp)
+
+# yitu
+add_executable(yitu yitu/yitu.cpp)
+add_executable(yitu2 yitu/yitu2.cpp)
+add_executable(yitu3 yitu/yitu3.cpp)

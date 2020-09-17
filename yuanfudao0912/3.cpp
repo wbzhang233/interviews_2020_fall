@@ -10,6 +10,8 @@
 
 using namespace std;
 
+
+
 class Trie {
 private:
 	bool isEnd; // 是否为最后一个字母
