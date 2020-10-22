@@ -71,3 +71,29 @@ add_executable(heapSort heapSort.cpp)
 add_executable(yitu yitu/yitu.cpp)
 add_executable(yitu2 yitu/yitu2.cpp)
 add_executable(yitu3 yitu/yitu3.cpp)
+
+# jxjr
+add_executable(jxjr1 jianxinjinrong/1.cpp)
+add_executable(jxjr2 jianxinjinrong/2.cpp)
+
+# meituan0920
+add_executable(metuan1 meituan0920/1-1.cpp)
+add_executable(metuan2 meituan0920/2.cpp)
+add_executable(metuan3 meituan0920/3.cpp)
+
+# ebay
+add_executable(ebay1 ebay/1.cpp)
+add_executable(ebay2 ebay/2.cpp)
+
+# ebay
+add_executable(ebay21 ebay1016/1.cpp)
+add_executable(ebay22 ebay1016/2.cpp)
+
+# netease
+add_executable(netease1 netease0927/1.cpp)
+add_executable(netease2 netease0927/2.cpp)
+
+# 移动研究院
+add_executable(chinamobile_res1 chinamobile_res/1.cpp)
+add_executable(chinamobile_res1-1 chinamobile_res/1-1.cpp)
+add_executable(chinamobile_res2 chinamobile_res/2.cpp)

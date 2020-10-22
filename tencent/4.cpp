@@ -62,10 +62,7 @@ int main()
 
 		int n = 5;
 
-//		vector<int > nums(20);
-//		for(int i=1;i<=20;i++) nums[i] = i;
-//		// UniformRandomNumberGenerator
-//		shuffle(nums.begin(),nums.end(),NULL);
+
 
 		vector<int> nums = {1,2,4,5,3};
 

@@ -1,5 +1,3 @@
-
-
 // 最小堆
 // Created by wbzhang on 2020/8/23.
 //
@@ -46,8 +44,5 @@ int main()
 		cout<<ans<<endl;
 		T--;
 	}
-
-
-
 	return 0;
 }

@@ -64,7 +64,7 @@ struct coins {
 		return coins(cost, 0);
 	}
 
-	// 重载等于
+	// 重载赋值
 	void operator=(coins coinsK) {
 		this->a = coinsK.a;
 		this->b = coinsK.b;
@@ -133,16 +133,18 @@ int main() {
 		int m = objects.size();
 		int amount = money.cost;
 		vector<vector<int> > dp(m,vector<int>(amount+1,0) );
+		int maxE = 0;
 
 		for(int i=0;i<objects.size();++i){
-			for(int v=objects[i].cost;v<amount;++v){
+			for(int v=objects[i].cost;v<=amount;++v){
 				if(v>=objects[i].cost) {
 					dp[i][v] = max(dp[i][v],dp[i][v-objects[i].cost]+objects[i].p);
 				}
+				maxE = max(maxE,dp[i][v]);
 			}
 		}
 
-		K2 += dp[m-1][amount];
+		K2 += maxE;
 	}
 
 
